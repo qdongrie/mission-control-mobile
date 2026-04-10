@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import '../shared/providers/app_provider.dart';
-import '../shared/models/lead_model.dart';
-import '../core/theme/app_theme.dart';
+import '../../shared/providers/app_provider.dart';
+import '../../shared/models/lead_model.dart';
+import '../../core/theme/app_theme.dart';
 
 class LeadsScreen extends StatefulWidget {
   const LeadsScreen({super.key});
@@ -96,9 +96,9 @@ class _LeadCard extends StatelessWidget {
                 spacing: 8,
                 runSpacing: 4,
                 children: [
-                  if (lead.sector != null) Chip(label: Text(lead.sector!, visualDensity: VisualDensity.compact)),
-                  if (lead.location != null) Chip(label: Text(lead.location!, visualDensity: VisualDensity.compact)),
-                  if (lead.size != null) Chip(label: Text(lead.size!, visualDensity: VisualDensity.compact)),
+                  if (lead.sector != null) Chip(label: Text(lead.sector!, )),
+                  if (lead.location != null) Chip(label: Text(lead.location!, )),
+                  if (lead.size != null) Chip(label: Text(lead.size!, )),
                 ],
               ),
             ],

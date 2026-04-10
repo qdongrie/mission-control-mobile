@@ -1,9 +1,9 @@
 import 'package:flutter/foundation.dart';
-import '../core/services/mission_control_db.dart';
-import '../shared/models/task_model.dart';
-import '../shared/models/approval_model.dart';
-import '../shared/models/agent_activity_model.dart';
-import '../shared/models/lead_model.dart';
+import '../../core/services/mission_control_db.dart';
+import '../models/task_model.dart';
+import '../models/approval_model.dart';
+import '../models/agent_activity_model.dart';
+import '../models/lead_model.dart';
 
 class AppProvider extends ChangeNotifier {
   // Stats

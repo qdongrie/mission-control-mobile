@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import '../shared/providers/app_provider.dart';
-import '../shared/models/approval_model.dart';
-import '../core/theme/app_theme.dart';
+import '../../shared/providers/app_provider.dart';
+import '../../shared/models/approval_model.dart';
+import '../../core/theme/app_theme.dart';
 
 class ApprovalsScreen extends StatefulWidget {
   const ApprovalsScreen({super.key});
